@@ -28,4 +28,9 @@ public class DescriptionConstants {
     public static final String DELETE_MUSCLE_GROUP = "Delete muscle group";
     public static final String UPDATE_MUSCLE_GROUP = "Update muscle group";
 
+
+    /*TRAINING*/
+    public static final String CREATE_NEW_TRAINING = "Create new training";
+
+
 }

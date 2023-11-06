@@ -43,6 +43,7 @@ public class Training implements Serializable {
     //BUILDER
     public Training() {}
 
+    public Training(User user) { this.user = user;}
 
     //GETTER AND SETTER
     public long getIdTraining() { return idTraining;}
