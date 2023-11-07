@@ -1,6 +1,7 @@
 package com.rbp.radeg.services.implement;
 
 import com.rbp.radeg.dto.TrainingDto;
+import com.rbp.radeg.model.Exercise;
 import com.rbp.radeg.model.Training;
 import com.rbp.radeg.model.User;
 import com.rbp.radeg.repositories.TrainingRepository;
@@ -44,6 +45,7 @@ public class TrainingServiceImplement implements TrainingServiceInterface {
         Training newTraining= new Training(user);
 
         return modelMapper.map(trainingRepo.save(newTraining), TrainingDto.class);
+
 
     }
 

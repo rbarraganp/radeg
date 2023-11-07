@@ -28,14 +28,14 @@ public class ExerciseDto {
     //RELATIONS
 
     //*** TRAINING ***
-    private TrainingDto training;
+    private Long idTraining;
 
     //*** MUSCLE SUBGROUP ***
-    private List<MuscleSubGroup> muscleSubGroupList= new ArrayList<>();
+    private List<Long> idMuscleSubGroupList= new ArrayList<>();
 
 
     //*** SERIE***
-    private List<Serie> serieList= new ArrayList<>();
+    private List<Long> idSerieList= new ArrayList<>();
 
 
     //BUILDER
@@ -43,5 +43,39 @@ public class ExerciseDto {
 
     //GETTER AND SETTER
 
+    public long getIdExercise() { return idExercise;}
+    public void setIdExercise(long idExercise) { this.idExercise = idExercise; }
 
+    public String getName() { return name;}
+    public void setName(String name) { this.name = name;}
+
+    public String getDescription() { return description;}
+    public void setDescription(String description) { this.description = description;}
+
+    public String getImg() { return img; }
+    public void setImg(String img) { this.img = img; }
+
+    public Long getIdTraining() {
+        return idTraining;
+    }
+
+    public void setIdTraining(Long idTraining) {
+        this.idTraining = idTraining;
+    }
+
+    public List<Long> getIdMuscleSubGroupList() {
+        return idMuscleSubGroupList;
+    }
+
+    public void setIdMuscleSubGroupList(List<Long> idMuscleSubGroupList) {
+        this.idMuscleSubGroupList = idMuscleSubGroupList;
+    }
+
+    public List<Long> getIdSerieList() {
+        return idSerieList;
+    }
+
+    public void setIdSerieList(List<Long> idSerieList) {
+        this.idSerieList = idSerieList;
+    }
 }

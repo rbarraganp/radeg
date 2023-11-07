@@ -1,5 +1,6 @@
 package com.rbp.radeg.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.rbp.radeg.model.Exercise;
 import com.rbp.radeg.model.Training;
 import com.rbp.radeg.model.User;
@@ -12,6 +13,8 @@ import java.util.List;
 /**
  * TRAINING DTO
  */
+
+@JsonIgnoreProperties({"user", "exerciseList"})
 public class TrainingDto implements Serializable {
 
         private static final long serialVersionUID = 1L;

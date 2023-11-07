@@ -11,8 +11,8 @@ public class ExceptionConstants {
 
 	public static final String INTERNAL_SERVER_ERROR = "INTERNAL_SERVER_ERROR - An internal server error has ocurred";
 
-	/** * DEFAULT USER */
 
+	/** * DEFAULT USER */
 	public static final String MESSAGE_NOT_FOUND_DEFAULT_USER = "NOT_FOUND_DEFAULT_USER -The main user is not found";
 
 	/** * USER */
@@ -33,5 +33,15 @@ public class ExceptionConstants {
 	public static final String MESSAGE_ALREADY_EXIST_MUSCLE_GROUP_NAME = "ALREADY_EXIST_MUSCLE_GROUP_NAME- This name is already in use ";
 	public static final String MESSAGE_INEXISTENT_MUSCLE_GROUP = "INEXISTENT_MUSCLE_GROUP- This muscle group not exist";
 
+
+	/** * MUSCLE SUBGROUP */
+	public static final String MESSAGE_ALREADY_EXIST_MUSCLE_SUBGROUP_NAME = "ALREADY_EXIST_MUSCLE_SUBGROUP_NAME- This name is already in use ";
+	public static final String MESSAGE_INEXISTENT_SUBMUSCLE_GROUP = "INEXISTENT_MUSCLE_SUBGROUP- This muscle subgroup not exist";
+
+	/** * TRAINING  */
+	public static final String MESSAGE_INEXISTENT_TRAINING = "INEXISTENT_TRAINING- This training not exist";
+
+	/** * EXERCISE  */
+	public static final String MESSAGE_INEXISTENT_EXERCISE = "INEXISTENT_EXERCISE- This exercise not exist";
 
 }

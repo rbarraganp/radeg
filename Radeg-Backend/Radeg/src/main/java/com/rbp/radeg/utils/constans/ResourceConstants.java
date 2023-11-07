@@ -29,10 +29,16 @@ public class ResourceConstants {
 	/*Muscle Group*/
 	public static final String RESOURCE_MUSCLE_GROUP = "/muscleGroup";
 
+	/*Muscle SubGroup*/
+	public static final String RESOURCE_MUSCLE_SUBGROUP = "/muscleSubGroup";
 
 
 	/*Training*/
 	public static final String RESOURCE_TRAINING = "/training";
+
+
+	/*Exercise*/
+	public static final String RESOURCE_EXERCISE = "/exercise";
 
 
 }

@@ -49,6 +49,7 @@ public class Exercise implements Serializable {
 
     //BUILDER
     public Exercise() {}
+    public Exercise(Training training) { this.training = training;}
 
     //GETTER AND SETTER
 

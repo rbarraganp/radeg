@@ -25,4 +25,10 @@ public class ParametrerConstants {
     public static final String PARAMETER_MUSCLE_GROUP = "muscleGorup";
     public static final String PARAMETER_MUSCLE_GROUP_ID = "idMuscleGroup";
 
+
+
+    /*Muscle Group*/
+    public static final String PARAMETER_EXERCISE = "exercise";
+    public static final String PARAMETER_EXERCISE_ID = "idExercise";
+
 }

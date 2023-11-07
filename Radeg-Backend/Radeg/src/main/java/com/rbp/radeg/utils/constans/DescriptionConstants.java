@@ -32,5 +32,8 @@ public class DescriptionConstants {
     /*TRAINING*/
     public static final String CREATE_NEW_TRAINING = "Create new training";
 
+    /*EXERCISE*/
+    public static final String CREATE_NEW_EXERCISE = "Create new exercise";
+
 
 }
